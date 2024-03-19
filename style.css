@@ -86,8 +86,12 @@ nav a {
 
 nav > ul {
   columns: 4;
-  text-align: center;
+  text-align: justify;
   list-style: none;
+}
+
+nav > ul > li {
+  margin: auto;
 }
 
 nav a:hover {
